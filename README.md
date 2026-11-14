@@ -1,2 +1,0 @@
-# VulnerablityManagement
-Vulnerability Management Activities
