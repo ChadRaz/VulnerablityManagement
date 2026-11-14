@@ -7,9 +7,9 @@
     Exit codes: 0 = Remediated/already compliant, 1 = Still open, 2 = Error.
 
 .NOTES
-    Author          : <Your Name>
-    LinkedIn        : 
-    GitHub          : 
+    Author          : Razin Abbas
+    LinkedIn        : https://www.linkedin.com/in/razin-abbas-9b582728a/
+    GitHub          : https://github.com/ChadRaz
     Date Created    : 2026-11-14
     Last Modified   : 2026-11-14
     Version         : 1.0
@@ -19,10 +19,10 @@
     Documentation   : https://stigaview.com/products/win11/v2r11/WN11-CC-000280/
 
 .TESTED ON
-    Date(s) Tested  : 
-    Tested By       : 
+    Date(s) Tested  : 2026-11-14
+    Tested By       : Razin Abbas
     Systems Tested  : Windows 11 Pro 26H2 x64 (Gen2)
-    PowerShell Ver. : 
+    PowerShell Ver. : 5.1
 
 .USAGE
     Run from an elevated PowerShell prompt. No reboot required.
