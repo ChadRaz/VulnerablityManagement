@@ -1,8 +1,7 @@
-I will be conducting a DISA STIG scan on a standard Windows 11 Pro Azure VM and programmatically remediating 10 STIGS with powershell. The Windows 11 Image is the standard"Windows 11 Pro, version 26H2 x64 Gen2." I disabled the Windows Defender Firewall so that the scan could probe the machine fully.
+I have conducted a DISA STIG scan on a standard Windows 11 Pro Azure VM and programmatically remediated 10 STIGS with powershell. The Windows 11 Image is the standard"Windows 11 Pro, version 26H2 x64 Gen2." I disabled the Windows Defender Firewall so that the scan could probe the machine fully.
 
 I conducted an initial DISA STIG Scan. The results are shown below:
-<img width="699" height="118" alt="Screenshot 2026-11-14 120609" src="https://github.com/user-attachments/assets/b7ff7c68-74e5-4632-89bb-4502529600ff" />
-
+<img width="699" height="118" alt="Screenshot 2026-11-14 120609" src="https://github.com/user-attachments/assets/17b347e3-4a13-47cb-a0de-4dac85f2be1d" />
 
 I chose the following 10 vulnerabilities at random to remediate:
 
@@ -10,7 +9,7 @@ I chose the following 10 vulnerabilities at random to remediate:
 
 2.  [WN11-CC-000110](https://stigaview.com/products/win11/v2r11/WN11-CC-000110/): Printing over HTTP must be prevented
 
-3.  [WN11-00-000020](https://stigaview.com/products/win11/v2r11/WN11-00-000020/): Secure Boot must be enabled on Windows 11 systems
+3.  [WN11-EP-000310](https://stigaview.com/products/win11/v2r11/WN11-EP-000310/): Windows 11 Kernel (Direct Memory Access) DMA Protection must be enabled
 
 4.  [WN11-CC-000280](https://stigaview.com/products/win11/v2r11/WN11-CC-000280/): Remote Desktop Services must always prompt a client for passwords upon connection
 
@@ -26,4 +25,10 @@ I chose the following 10 vulnerabilities at random to remediate:
 
 10. [WN11-CC-000145:](https://stigaview.com/products/win11/v2r11/WN11-CC-000145/) Users must be prompted for a password on resume from sleep (on battery)
 
-The links attached to each STIG ID has a description on the misconfiguration, how to manually check for the misconfiguration, and how to manually remediate it. Using Claude, I will create programmatic powershell scripts to check for and remediate the misconfigurations
+The links attached to each STIG ID has a description on the misconfiguration, how to manually check for the misconfiguration, and how to manually remediate it. Using Claude, I have created programmatic powershell scripts to check for and remediate the misconfigurations. Both scripts and a screenshot of their execution on the scanned machine are located in the folder with the title being their STIG ID.
+
+I conducted the same DISA STIG scan again after remediating the configurations. 
+<img width="701" height="64" alt="Screenshot 2026-11-14 161843" src="https://github.com/user-attachments/assets/eafc7c94-722c-4a54-9ad5-becb8f7b0c30" />
+
+
+As shown, 10 configurations were fixed. I went through and confirmed that the ones I remediated were the ones that changed the count.
