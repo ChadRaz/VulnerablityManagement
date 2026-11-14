@@ -27,8 +27,8 @@ I chose the following 10 vulnerabilities at random to remediate:
 
 The links attached to each STIG ID has a description on the misconfiguration, how to manually check for the misconfiguration, and how to manually remediate it. Using Claude, I have created programmatic powershell scripts to check for and remediate the misconfigurations. Both scripts and a screenshot of their execution on the scanned machine are located in the folder with the title being their STIG ID.
 
-I conducted the same DISA STIG scan again after remediating the configurations. 
+I conducted the same DISA STIG scan again after remediating the configurations: 
 <img width="701" height="64" alt="Screenshot 2026-11-14 161843" src="https://github.com/user-attachments/assets/eafc7c94-722c-4a54-9ad5-becb8f7b0c30" />
 
 
-As shown, 10 configurations were fixed. I went through and confirmed that the ones I remediated were the ones that changed the count.
+As shown, 10 configurations were fixed. I went through and confirmed that the ones I remediated were the ones that changed the results.
