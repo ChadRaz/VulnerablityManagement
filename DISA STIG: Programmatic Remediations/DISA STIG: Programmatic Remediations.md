@@ -1,7 +1,7 @@
 I will be conducting a DISA STIG scan on a standard Windows 11 Pro Azure VM and programmatically remediating 10 STIGS with powershell. The Windows 11 Image is the standard"Windows 11 Pro, version 26H2 x64 Gen2." I disabled the Windows Defender Firewall so that the scan could probe the machine fully.
 
 I conducted an initial DISA STIG Scan. The results are shown below:
-<img width="837" height="137" alt="Screenshot 2026-11-14 131048" src="https://github.com/user-attachments/assets/840beffb-938d-4445-9d53-1926fdea62ab" />
+<img width="699" height="118" alt="Screenshot 2026-11-14 120609" src="https://github.com/user-attachments/assets/b7ff7c68-74e5-4632-89bb-4502529600ff" />
 
 
 I chose the following 10 vulnerabilities at random to remediate:
