@@ -32,3 +32,5 @@ I conducted the same DISA STIG scan again after remediating the configurations:Â
 
 
 As shown, 10 configurations were fixed. I went through and confirmed that the ones I remediated were the ones that changed the results.
+
+The full scan results for both scans are located in the "Scan Reports" folder.
