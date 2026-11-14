@@ -1,0 +1,4 @@
+# Disable anonymous FTP login
+sudo sed -i 's/^anonymous_enable=.*/anonymous_enable=NO/' /etc/vsftpd.conf
+# Restart FTP service
+sudo systemctl restart vsftpd
