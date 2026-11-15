@@ -1,3 +1,5 @@
+The Google Drive version of this project is [HERE](https://drive.google.com/drive/folders/1MPAQERZPXF4MPZINRmfin0FZVd5Fj-k5?usp=drive_link)
+
 I have conducted a DISA STIG scan on a standard Windows 11 Pro Azure VM and programmatically remediated 10 STIGS with powershell. The Windows 11 Image is the standard"Windows 11 Pro, version 26H2 x64 Gen2." I disabled the Windows Defender Firewall so that the scan could probe the machine fully.
 
 I conducted an initial DISA STIG Scan. The results are shown below:
