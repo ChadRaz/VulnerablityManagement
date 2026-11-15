@@ -1,3 +1,5 @@
+The Google Drive version of this project is [HERE](https://drive.google.com/drive/folders/1MPAQERZPXF4MPZINRmfin0FZVd5Fj-k5?usp=drive_link)
+
 I will be conducting a full vulnerability management lifecycle on “CRRA-DB-03,” a Windows machine, and a new linux machine that I will create later. I will use an enterprise version of Tenable Nessus to conduct vulnerability management. We first need to make sure our internal Tenable scan engine can reach our “CRRA-DB-03” at IP 10.1.0.117. We have to add a firewall rule to this device's security group to allow all traffic from 10.0.0.8, the IP of our scan engine. Although I don't need this ACL since the security group already exposes this device to all traffic, in production we would have to implement the below rule “ALLOW-INBOUND-TENABLE”:  
 <img width="1434" height="396" alt="image" src="https://github.com/user-attachments/assets/47201ad1-1e35-4f5d-acc5-fe756dec23d3" />
 
